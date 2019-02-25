@@ -9,7 +9,7 @@ public class AtividadePalindromo {
     public static void main(String[] args) {
         String palindromo = "";
         int maior = 0;
-        int range = 999;
+        int range = 1000;
         for(int i = 0; i < range; i++ ){
            for(int j = 0; j < range; j++ ){
             palindromo = String.valueOf(i * j);
